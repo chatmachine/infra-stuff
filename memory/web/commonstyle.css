@@ -1,0 +1,52 @@
+.odd {	
+ background-color: Aqua;
+}
+.even {
+ background-color: #CCCCFF;
+}
+table {
+	text-align: left;
+	font-size: 20px;
+	font-family: "Times New Roman";
+	background: #c0c0c0;
+      } 
+
+<table thead  {
+	cursor: pointer;
+	}
+table thead tr,
+table tfoot tr {
+	background: #c0c0c0;
+	}
+ 
+table tbody tr {
+	background: #f0f0f0;
+	}
+ 
+td,th {
+	border: 1px solid white;
+	}
+td {padding: 5px;}
+.red {
+    background-color: #f99;
+}
+.yellow {
+    background-color: #ff9;
+}
+.green {
+    background-color: #9f9;
+}
+.notApplicable {
+    background-color: #fff;
+}
+td.stopGapCondition {
+    text-align: center;
+}
+.container {
+  width: 90%;
+  left: 150px;
+  position: fixed;
+}
+.container-fluid {
+  min-width: 90%;
+}
